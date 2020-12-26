@@ -5,8 +5,7 @@ import os
 from dotenv import load_dotenv
 
 
-def config():
-    load_dotenv()
+load_dotenv()
 
 
 def required(value):
